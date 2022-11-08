@@ -17,4 +17,17 @@
 #instur
 {
     background-color: black;
+    float: right;
+}
+
+#restart
+{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.instruction_text
+{
+    display: inline-block;
+    width: 45%;
 }

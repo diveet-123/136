@@ -18,12 +18,37 @@
         <center>
             <span class="btn btn-primary heading">
                 <h3>AI PING PONG GAME</h3>
-                <button class="btn btn-primary" id="instur" data-toggle="modal" data-target="#myModal">Insturtions</button>
+                <button class="btn btn-primary" id="instur" data-toggle="modal" data-target="#myModal">Instructions</button>
             </span>
 
+            <span>
             <button class="btn btn-success" onclick="startGame()" id="start">PLAY GAME</button>
+            <button class="btn btn-primary" onclick="restart()" id="restart">RESTART</button>
+            </span>
             <br><br>
             <button class="btn btn-warning" id="status"></button>
+            <br><br>
+            <div id="canvas"></div>
+
+            <div id="myModal" class="modal fade">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                          <button class="close" data-dismiss="modal">&times;</button>
+                          <h4>Insturtions</h4>
+            
+                         <div class="modal-body">
+                            <h3 id="instructions_text">1.First keep your laptop screen straight</h3>
+                            <h3 id="instructions_text">2.Move yourself approximately 3-4 feet away from the laptop</h3>
+                            <h3 id="instructions_text">3.Move your right wrist in an ascending and decending manner, a red dot should appear on your right wrist</h3>
+                            <h3 id="instructions_text">4.Now press the play button, and again move yourself 3-4 feet away from laptop</h3>
+                            <h3 id="instructions_text">5.The red paddel is your paddel, that will move as per the movement of your right wrist</h3>   
+                        </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            
         </center>
     </body>
     <script src="main.js"></script>
