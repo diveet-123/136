@@ -31,3 +31,9 @@
     display: inline-block;
     width: 45%;
 }
+
+canvas
+{
+    border: 5px solid lightskyblue;
+    border-radius: 5px;
+}
